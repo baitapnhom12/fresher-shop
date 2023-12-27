@@ -1,1 +1,2 @@
 chmod -R 777 /var/www/html/storage
+composer create-project laravel/laravel .
