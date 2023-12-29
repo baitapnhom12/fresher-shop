@@ -1,2 +1,6 @@
 chmod -R 777 /var/www/html/storage
+php artisan config:clear
+php artisan config:cache
+php artisan route:clear
+php artisan route:cache
 composer create-project laravel/laravel .
